@@ -5,7 +5,8 @@
 Jogue aqui 👉: https://estudos-jogo-do-amigo-secreto.vercel.app/
 
 - Os participantes escrevem seus nomes numa lista.
-- O jogo sorteia os pares aleatoriamente, garantindo que **ninguém tire a si mesmo**.
+- O jogo sorteia os pares aleatoriamente, garantindo que ninguém tire a si mesmo.
+- Não é possível escrever um mesmo nome.
 - O jogo utiliza JavaScript em:
 
   - Funções
