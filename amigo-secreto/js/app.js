@@ -9,11 +9,15 @@ function adicionar() {
     if(nomeAmigoCaixa === '') {
       alert('Insira um nome válido (não nulo)'); // interrompe a função se o nome adicionado for vazio ('')
       return;
+    } else if(amigosIncluidos.includes(nomeAmigoCaixa)) {
+      alert('Insira um nome não repetido!')
+      nomeAmigo.value = '';
+      return;
     }
-
     amigosIncluidos.push(nomeAmigoCaixa); // [felipe, duarte, rafael]
     listaAmigos.innerHTML = amigosIncluidos.join(', '); // 'felipe, duarte, rafael' // o .join(', ') deixa um espaço dps da vírgula
 
+    
     nomeAmigo.value = ''; // limpa o campo 'Nome do amigo'
 }
 
